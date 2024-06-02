@@ -22,7 +22,7 @@ function Header(){
       <i onClick={handleOpen} style={{display: isOpen === true ? "none": ""}} class="fa-solid fa-bars text-4xl block sm:hidden absolute right-3"></i>
       <i onClick={handleClose} style={{display: isOpen === true ? "block": "none"}} class="fa-solid fa-x text-4xl hidden absolute right-3"></i>
       
-      <ul style={{display: isOpen === true ? "flex": ""}} class="hidden sm:flex sm:flex-row mt-10 sm:mt-0 flex-col  sm:gap-10 gap-6 text-[20px]">
+      <ul style={{display: isOpen === true ? "flex": ""}} class="hidden sm:flex sm:flex-row  mt-10 sm:mt-0 transition-all duration-1000 flex-col  sm:gap-10 gap-6 text-[20px]">
         <li class="bg-[#364364] py-1 px-2 rounded">Home</li>
         <li>About Us</li>
         <li>Property</li>
