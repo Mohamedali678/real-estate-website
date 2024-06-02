@@ -33,14 +33,14 @@ function Footer (){
       <div class="flex justify-between">
         <div class="flex gap-5 flex-col sm:flex-row">
           <h1 class="text-2xl">Follow Us</h1>
-          <div class="mt-2">
+          <div class="mt-2 flex gap-3">
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-brands fa-instagram"></i>
           </div>
         </div>
 
-        <div>
+        <div className="flex gap-3">
           <span>Privacy</span>
           <span>terms</span>
         </div>
